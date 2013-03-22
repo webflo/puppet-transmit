@@ -9,7 +9,7 @@ describe 'transmit' do
 
   it do
     should contain_package('Transmit').with({
-      :source   => 'http://www.panic.com/transmit/d/Transmit%204.3.2.zip',
+      :source   => 'http://www.panic.com/transmit/d/Transmit%204.3.3.zip',
       :provider => 'compressed_app'
     })
   end
